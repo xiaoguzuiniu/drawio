@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="28.0.9">
   <diagram name="第 1 页" id="zIRF1-uyRtkpYkzYhBce">
-    <mxGraphModel>
+    <mxGraphModel dx="976" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="imP3beGYgfolBF5q22H7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-1" target="imP3beGYgfolBF5q22H7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-1" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-2" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-3" target="imP3beGYgfolBF5q22H7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-3" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-4" target="imP3beGYgfolBF5q22H7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-4" value="0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-2" target="imP3beGYgfolBF5q22H7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="370" />
+              <mxPoint x="320" y="340" />
+              <mxPoint x="390" y="320" />
+              <mxPoint x="230" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-11" value="1.方案一：使用一个map在遍历链表的时候存储遍历过的&lt;div&gt;元素，如果后面的元素在这个map中那就说明是一个环形链表&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="435" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-12" value="2. 方案二：使用快慢指针，快指针每次走两步，慢指针每次走一步，&lt;div&gt;如果是一个环形链表，那么快指针总有一刻可以追上慢指针，就&lt;/div&gt;&lt;div&gt;像操场跑步一个道理。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-13" target="imP3beGYgfolBF5q22H7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-13" value="fast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="168" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="imP3beGYgfolBF5q22H7-15" target="imP3beGYgfolBF5q22H7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="imP3beGYgfolBF5q22H7-15" value="slow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="318" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
