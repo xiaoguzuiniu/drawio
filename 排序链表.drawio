@@ -130,6 +130,9 @@
         <mxCell id="YOQmVQ1goA5KGb7JhRat-42" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="480" y="680" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="YOQmVQ1goA5KGb7JhRat-43" value="递归分治法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
