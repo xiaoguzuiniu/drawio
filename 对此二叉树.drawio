@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9">
   <diagram name="第 1 页" id="DvBqL60HD2wJzUJgZ8ju">
-    <mxGraphModel dx="1426" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,7 +119,7 @@
           <mxGeometry x="540" y="270" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a-yUPIUQInHSvUVOcxe_-30" value="递归终止条件：&lt;div&gt;两个节点都为空 返回true&lt;div&gt;两个节点不相等，返回false&lt;/div&gt;&lt;div&gt;两个节点其中一个为null 返回false&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-70" width="200" height="90" as="geometry" />
+          <mxGeometry x="270" y="40" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="a-yUPIUQInHSvUVOcxe_-31" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="355" width="40" height="40" as="geometry" />
@@ -804,6 +804,9 @@
         </mxCell>
         <mxCell id="a-yUPIUQInHSvUVOcxe_-186" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="20" y="2020" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-yUPIUQInHSvUVOcxe_-187" value="递归比较：&lt;div&gt;左子树的左孩子和右子树的右孩子&lt;/div&gt;&lt;div&gt;左子树的有孩子和右子树的左孩子&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2140" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
